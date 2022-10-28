@@ -72,5 +72,59 @@ button {
   border-radius: 10px;
   margin-top: 12px;
 }
-
 /* hero styling end */
+/* section 2 styling start */
+.section2 {
+  height: 33vh;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+  padding: 24px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.subcontainer {
+  color: #1f2937;
+  width: 250px;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+/* section 2 styling end */
+/* section 3 styling start */
+.section3 {
+  height: 25vh;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 700px;
+  /* I don't think padding is correct because when minimized text spills */
+}
+
+blockquote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-attribution {
+  font-size: 24px;
+  font-weight: 900;
+  color: #1f2937;
+  align-self: flex-end;
+}
+/* section 3 styling end */
+/* section 4 styling start */
