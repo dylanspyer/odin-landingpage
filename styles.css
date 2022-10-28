@@ -9,8 +9,8 @@
 header {
   background-color: #1f2937;
   color: #e5e7eb;
-  height: 33vh;
-  padding: 0 25vh;
+  height: 30vh;
+  padding: 0 24vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -72,10 +72,14 @@ button {
   border-radius: 10px;
   margin-top: 12px;
 }
+
+.cta-button1:hover {
+  background-color: #1f2937;
+}
 /* hero styling end */
 /* section 2 styling start */
 .section2 {
-  height: 33vh;
+  height: 29vh;
 }
 
 h2 {
@@ -103,7 +107,7 @@ h2 {
 /* section 2 styling end */
 /* section 3 styling start */
 .section3 {
-  height: 25vh;
+  height: 18vh;
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
@@ -128,3 +132,55 @@ blockquote {
 }
 /* section 3 styling end */
 /* section 4 styling start */
+.section4 {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section4-container {
+  background-color: #3382f6;
+  border-radius: 6px;
+  height: 100px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 24px 76px;
+}
+
+.cta-header {
+  font-size: 18px;
+  color: #f9faf8;
+  text-align: left;
+  padding: 0;
+}
+
+.cta-text {
+  font-size: 16px;
+  color: #e5e7eb;
+}
+
+.cta-button2 {
+  border-color: #f9faf8;
+}
+
+.cta-button2:hover {
+  border-color: #f9faf8;
+  background-color: #1f2937;
+}
+
+/* Section 4 styling end */
+/* Footer styling start*/
+footer {
+  height: 3vh;
+  font-size: 16px;
+  color: #e5e7eb;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Footer styling end*/
