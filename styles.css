@@ -114,7 +114,6 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0 700px;
   /* I don't think padding is correct because when minimized text spills */
 }
 
@@ -122,6 +121,7 @@ blockquote {
   font-size: 36px;
   font-style: italic;
   color: #1f2937;
+  width: 50%;
 }
 
 .quote-attribution {
@@ -129,6 +129,8 @@ blockquote {
   font-weight: 900;
   color: #1f2937;
   align-self: flex-end;
+
+  width: 50%;
 }
 /* section 3 styling end */
 /* section 4 styling start */
