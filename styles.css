@@ -79,8 +79,8 @@ button {
 /* hero styling end */
 /* section 2 styling start */
 .section2 {
-  /* height: 30vh; */
-  margin-bottom: 12px;
+  margin-top: 48px;
+  margin-bottom: 48px;
 }
 
 h2 {
@@ -88,7 +88,7 @@ h2 {
   font-weight: 900;
   color: #1f2937;
   text-align: center;
-  padding: 24px;
+  padding: 0 0 24px 0;
 }
 
 .container {
@@ -108,7 +108,9 @@ h2 {
 /* section 2 styling end */
 /* section 3 styling start */
 .section3 {
-  /* height: 18vh; */
+  height: 300px;
+  margin-top: 48px;
+  margin-bottom: 48px;
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
@@ -135,18 +137,17 @@ blockquote {
 /* section 3 styling end */
 /* section 4 styling start */
 .section4 {
-  /* height: 15vh; */
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 18px;
+  margin-bottom: 48px;
 }
 
 .section4-container {
   background-color: #3382f6;
   border-radius: 6px;
   height: 100px;
-  width: 1000px;
+  width: 500px;
   display: flex;
   justify-content: space-between;
   align-items: center;
