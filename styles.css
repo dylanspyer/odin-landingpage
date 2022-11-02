@@ -140,7 +140,7 @@ blockquote {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 48px;
+  margin: 48px 0;
 }
 
 .section4-container {
